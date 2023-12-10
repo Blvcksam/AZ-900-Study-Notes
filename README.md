@@ -232,3 +232,75 @@ Cloud models define the deployment type of cloud resources. There are three main
 ## Conclusion:
 
 When building or deploying cloud applications, prioritizing high availability and scalability is essential. High availability guarantees continuous access to resources, while scalability ensures dynamic resource adjustments to meet changing demand efficiently. Both aspects contribute to a resilient and cost-effective cloud environment, providing optimal performance and user experience.
+
+
+# Azure Infrastructure Components:
+
+## Regions and Availability Zones:
+
+- **Region:** A geographical area that contains at least one datacenter. Azure controls the resources within each region.
+- **Availability Zones:** Physically separated datacenters within an Azure region, providing redundancy. If one zone goes down, the other continues working.
+- **Azure Services Supporting Availability Zones:** Zonal services, Zone-redundant services, Non-regional services.
+- **Region Pairs:** Azure regions are paired with another region at least 300 miles away, reducing the likelihood of interruptions due to events like natural disasters.
+- **Sovereign Regions:** Designed for compliance or legal purposes, such as US DoD Central, US Gov Virginia, China East, and more.
+
+## Azure Resources and Resource Groups:
+
+- **Resource:** The basic building block of Azure.
+- **Resource Groups:** Provide a way to group resources together. Actions applied to a group affect all resources within it. Deleting a group deletes all associated resources.
+
+## Azure Subscriptions:
+
+- A unit of management, billing, and scale.
+- **Billing Boundary:** Determines how an Azure account is billed.
+- **Access Control Boundary:** Manages and controls access to resources provisioned under specific subscriptions.
+
+## Azure Management Groups:
+
+- Provide a level of scope above subscriptions.
+- Organize subscriptions into containers and apply governance conditions.
+- Create hierarchies for policy application and provide user access to multiple subscriptions.
+
+## Azure Virtual Machines (VMs):
+
+- Provide total control over the Operating System.
+- Allow running custom software and using custom hosting configs.
+- Assure VM flexibility of virtualization without maintaining physical hardware.
+- Requires updating and maintaining the software running on the VM.
+
+### Virtual Machine Scale Set:
+
+- Create and manage a group of identical, load-balanced VMs.
+- Instances can automatically increase or decrease in response to demand.
+- Automatically deploys a load balancer for efficient resource usage.
+
+## Azure Virtual Desktop:
+
+- Desktop and app virtualization in the cloud.
+- Create a full desktop virtualization environment without additional gateway servers.
+- Enables multiple concurrent users on a single VM (multiple sessions).
+
+## Containers:
+
+- Virtualization environment for running multiple containers on a single host.
+- Lightweight, designed for dynamic creation, scaling, and stopping.
+- Popular container engine: Docker.
+
+### Azure Container Services:
+
+- Lightweight, virtualized environment without OS management.
+- Azure Container Instances: PaaS offering for running containers without managing VMs.
+- Azure Kubernetes Service: Orchestration service for containers with distributed architectures.
+
+## Azure Functions:
+
+- Event-driven, serverless compute option.
+- Scales automatically based on demand.
+- Can be stateless or stateful.
+
+## Azure App Service:
+
+- Fully managed platform for building, deploying, and scaling web apps and APIs quickly.
+- Works with .NET, .NET Core, Node.js, Java, Python, or PHP.
+- PaaS offering with enterprise-grade performance, security, and compliance.
+- Supports Web apps, API apps, Webjobs, and Mobile apps.
