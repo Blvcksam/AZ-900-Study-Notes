@@ -69,8 +69,8 @@
   <p>Single VMs or group VMS together for high availability/scalability/redundancy</p>
   <p><strong>Virtual Machine Scale Set :
 
-	<li>• Create and managed a group of identical , load-balanced VM<li>
-	<li>• Number of VM instances can automatically increase or decrease in response to demand<li> 
+	• Create and managed a group of identical , load-balanced VM
+	• Number of VM instances can automatically increase or decrease in response to demand
 <li>Virtual machines scale sets also automatically deploy a load balancer to make sure that your resources are being used efficiently </li>
 <li>The # of VMs can increase or decrease in response to demand or you can set it to scale based on schedule.Auto deploys load balancers</li>
 </ul></p>
