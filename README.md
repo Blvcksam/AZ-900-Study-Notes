@@ -67,10 +67,11 @@
   </ul>
   <p>You still have to update and maintain software that runs on the VM</p>
   <p>Single VMs or group VMS together for high availability/scalability/redundancy</p>
-  <p><strong>VM scale sets</strong> -create & manage a group of identical, load-balanced VMs
-<ul>
-<li>Build large scale services for areas such as compute, bigdata, container workloads</li>
-<li>Centrally manage, configure & update VMS in minutes</li>
+  <p><strong>Virtual Machine Scale Set :
+
+	• Create and managed a group of identical , load-balanced VM
+	• Number of VM instances can automatically increase or decrease in response to demand 
+Virtual machines scale sets also automatically deploy a load balancer to make sure that your resources are being used efficiently </li>
 <li>The # of VMs can increase or decrease in response to demand or you can set it to scale based on schedule.Auto deploys load balancers</li>
 </ul></p>
   <p><strong>VM availability sets</strong> update domain groups that can be rebooted at the same time
