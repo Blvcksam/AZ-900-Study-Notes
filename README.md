@@ -103,3 +103,85 @@ Cloud models define the deployment type of cloud resources. There are three main
 
 - Cloud computing, through its consumption-based model, offers businesses the flexibility to adapt to changing demands, efficiently manage costs, and access cutting-edge solutions without the burden of upfront infrastructure investment and maintenance.
 
+
+# Infrastructure as a Service (IaaS):
+
+- IaaS provides flexible cloud services with maximum user control.
+- Cloud provider manages hardware, network, and physical security.
+- Users handle OS installation, configuration, maintenance, and network settings.
+
+## Shared Responsibility Model:
+
+- Significant user responsibility.
+- Cloud provider manages physical infrastructure, users manage installation, configuration, updates, and security.
+
+## Scenarios:
+
+- Lift-and-Shift Migration.
+- Testing and Development.
+
+## Key Characteristics:
+
+- Users rent hardware in a cloud datacenter.
+- Maximum control over infrastructure.
+- Scalable and on-demand resource provisioning.
+
+## Conclusion:
+
+- IaaS offers flexible, customizable cloud services, ideal for lift-and-shift migrations or rapid replication of development environments.
+
+# Platform as a Service (PaaS):
+
+- Intermediate model between IaaS and SaaS.
+- Cloud provider manages physical infrastructure, OS, middleware, development tools, and business intelligence.
+
+## Shared Responsibility Model:
+
+- Shared model splitting responsibilities.
+- Users focus on application development; the provider manages infrastructure complexities.
+
+## Scenarios:
+
+- Development Framework.
+- Analytics or Business Intelligence.
+
+## Key Characteristics:
+
+- Complete development environment without infrastructure management.
+- Users concentrate on application development.
+- Provider maintains and updates the operating environment.
+
+## Conclusion:
+
+- PaaS provides a balanced approach, beneficial for application development, customization, analytics, or business intelligence.
+
+# Software as a Service (SaaS):
+
+- Users rent or use fully developed applications.
+- Examples include email, financial software, messaging applications.
+- Offers a complete product perspective.
+
+## Flexibility and Ease of Use:
+
+- Least flexible but easiest to deploy.
+- Users don't need extensive technical knowledge.
+
+## Shared Responsibility Model:
+
+- Most responsibility with the cloud provider.
+- Users manage data input, devices, and user access.
+
+## Scenarios:
+
+- Email and Messaging.
+- Business Productivity Applications.
+- Finance and Expense Tracking.
+
+## Ease of Deployment:
+
+- Ready-to-use applications.
+- No need for users to manage underlying infrastructure or application development.
+
+## Conclusion:
+
+- SaaS provides a ready-to-use solution, easiest to deploy, suitable for scenarios prioritizing rapid deployment and minimal technical expertise.
