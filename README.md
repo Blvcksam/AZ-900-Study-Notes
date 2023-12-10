@@ -3,7 +3,7 @@ Study Notes for Azure Fundamental Exam
 ### **Azure Account Options:**
 
 1. **Free Account:**
-    - **Inclusions:**
+- **Inclusions:**
         - Free Azure products for 12 months.
         - Initial credit for the first 30 days.
         - Access to 25+ always-free products.
